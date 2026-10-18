@@ -14,7 +14,7 @@ Course project/
 │  ├── final_rf.joblib                                   (Trained joblib model)
 │  ├── kmeans_weather.joblib                             (Weather Clustering Model)
 │  └── scaler_cluster.joblib                             (Feature Scaler)
-├── output (Vitualised results)
+├── output                                               (Vitualised results)
 │  ├── test_confusion_matrix_nn.png
 │  ├── test_confusion_matrix.png  
 │  ├── test_feature_importance.png
