@@ -65,7 +65,7 @@ conda env create -f environment.yml
 #### Option 2: Using pip
 
 ```bash
-pip install "pandas>=2.2,<3.0" "numpy>=2.0,<3.0" scikit-learn==1.9.1 matplotlib==3.11.1 seaborn==0.13.2 "requests>=2.34,<3.0" joblib==1.6.0 jupyterlab tensorflow==2.21.0
+pip install -r requirements.txt
 ```
 ## License
 This project is with a [MIT license](LICENSE) open-source license.
