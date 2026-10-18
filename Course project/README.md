@@ -50,13 +50,22 @@ This project was developed and tested using **Python 3.12** on the **JupyterLab*
 - **requests**: `>=2.34, <3.0` (Fetching historical and live weather data via Open-Meteo API)
 - **joblib**: `1.6.0` (Serialization and loading of trained models and scalers)
 - **jupyterlab**: `>=4.0, <5.0` (Interactive notebook platform)
+- **tensorflow**: `2.21.0` (An end-to-end platform for machine learning)
 
 ### Quick Installation
 
-You can install all required packages at once using `pip`:
+You can install all required packages at once using either `pip` or `conda`.
+
+#### Option 1: Using conda (Recommended)
 
 ```bash
-pip install "pandas>=2.2,<3.0" "numpy>=2.0,<3.0" scikit-learn==1.9.1 matplotlib==3.11.1 seaborn==0.13.2 "requests>=2.34,<3.0" joblib==1.6.0 jupyterlab
+conda env create -f environment.yml
+```
+
+#### Option 2: Using pip
+
+```bash
+pip install "pandas>=2.2,<3.0" "numpy>=2.0,<3.0" scikit-learn==1.9.1 matplotlib==3.11.1 seaborn==0.13.2 "requests>=2.34,<3.0" joblib==1.6.0 jupyterlab tensorflow==2.21.0
 ```
 ## License
 This project is with a [MIT license](LICENSE) open-source license.
