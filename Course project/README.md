@@ -8,16 +8,20 @@ This is a report about weather prediction model created by Haoyang Qian\& Ruowen
 
 ```text
 Course project/
-├── final_rf.joblib                                   (Trained joblib model)
-├── kmeans_weather.joblib                             (Weather Clustering Model)
-├── scaler_cluster.joblib                             (Feature Scaler)
-├── get_data.ipynb                                    (Data retrieval script)
-├── main.ipynb                                        (Main script)
-├── run_to_predict.ipynb                              (Weather prediction script)
-├── lund_daily_weather.csv                            (Retrieved data)
-├── test_confusion_matrix.png                         |
-├── test_feature_importance.png                       ├── (Vitualised result)
-├── test_roc_curve.png                                |
+├── data
+│  └── lund_daily_weather.csv                            (Retrieved data)
+├── model
+│  ├── final_rf.joblib                                   (Trained joblib model)
+│  ├── kmeans_weather.joblib                             (Weather Clustering Model)
+│  └── scaler_cluster.joblib                             (Feature Scaler)
+├── output (Vitualised results)
+│  ├── test_confusion_matrix_nn.png
+│  ├── test_confusion_matrix.png  
+│  ├── test_feature_importance.png
+│  └── test_roc_curve.png         
+├── get_data.ipynb                                       (Data retrieval script)
+├── main.ipynb                                           (Main script)
+├── run_to_predict.ipynb                                 (Weather prediction script)
 ├── environment.yml        
 ├── LICENSE          
 └── README.md              
